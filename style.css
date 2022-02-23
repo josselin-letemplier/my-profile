@@ -1,0 +1,207 @@
+/* Colors and Fonts */
+
+body{
+    background-color:RGB(248, 249, 253);
+    color: rgb(50, 50, 50);
+    font-family:Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 1,6;
+}
+
+h1, h2{
+    font-family: 'Roboto', serif;
+    letter-spacing:3px;
+}
+
+h1 {
+    color:#396EB0 ;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 2;
+}
+
+h2{
+    color:#5584AC;
+    font-size: 40px;
+    font-weight:500;
+    line-height:1,5;
+    
+}
+
+a {
+   text-decoration: none;
+   color:#0179b5 ;
+    font-size: 40px;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+.img-circle {
+    width:400px;
+    border-radius: 50%;
+}
+
+/*Custom design with class*/
+
+.container {
+    width: 700px;
+    margin : 5px auto;
+}
+
+@media (max-width: 960px) {
+
+  .container {width: 700px;}
+  .img-circle {width:400px;}
+}
+@media (max-width: 720px) {
+  
+  .container {width: 500px;}
+  .img-circle {width:286px;}
+    h1 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.8;
+}
+    h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.8;
+}
+}
+@media (max-width: 540px) {
+ 
+  .container {width: 300px;}
+  .img-circle {width:171px;}
+    h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.8;
+}
+h2{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.8;
+}
+
+.list-inline li {
+    padding: 8 px;
+}
+}
+@media (max-width: 360px) {
+ 
+  .container {width: 240px;}
+  .img-circle {width:137px;}
+    h1 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.8;
+}
+h2{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.8;
+}
+.list-inline li {
+    padding: 6 px;
+}
+}
+@media (max-width: 260px) {
+ 
+  .container {width: 180px;}
+  .img-circle {width:102px;}
+    h1 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.8;
+}
+h2{
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1.8;
+}
+body{
+    font-size: 17px;
+}
+.list-inline li {
+    padding: 4 px;
+}
+}
+
+@media (max-width: 144px) {
+ 
+  .container {width: 100px;}
+  .img-circle {width:57px;}
+  h1 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.8;
+}
+h2{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.8;
+}
+body{
+    font-size: 15px;
+}
+.list-inline li {
+    padding: 3 px;
+}
+}
+@media (max-width: 100px) {
+ 
+  .container {width: 80px;}
+  .img-circle {width:45px;}
+  h1 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.8;
+}
+h2{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.8;
+}
+body{
+    font-size: 13px;
+}
+.list-inline li {
+    padding: 2 px;
+}
+}
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.btn-yellow {
+    background-color:#ebb200;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+.btn-yellow:hover{
+    background-color:black;
+    color: white;
+}
+.list-inline {
+    list-style: none;
+    padding-left: 0 px;
+}
+.list-inline li {
+    display: inline;
+    padding: 10 px;
+}
+.list-inline i {
+    font-size:80px;
+    color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+    color: black;
+}
